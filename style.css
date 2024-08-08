@@ -1,7 +1,7 @@
 /* Basic styling for the body */
 body {
-    background-color: #000; /* Black background */
-    color: #fff; /* White text color */
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
     font-family: 'Courier New', Courier, monospace; /* Monospace font */
     text-align: center; /* Center-align text */
     margin: 0; /* Remove default margin */
@@ -26,9 +26,9 @@ body {
 /* Profile picture styling with neon pulse effect */
 .profile-pic {
     border-radius: 50%; /* Circular image */
-    width: 150px; /* Fixed width */
-    height: 150px; /* Fixed height */
-    box-shadow: 0 0 15px 5px rgba(148, 0, 211, 0.75); /* Neon effect */
+    width: 300px; /* Fixed width */
+    height: 300px; /* Fixed height */
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.75); /* Neon effect */
     animation: pulse 1.5s infinite, scale 0.25s ease-in-out; /* Pulsing and scaling animation */
     margin: 0 auto; /* Center image */
 }
@@ -36,13 +36,13 @@ body {
 /* Keyframes for pulsing animation */
 @keyframes pulse {
     0% {
-        box-shadow: 0 0 15px 5px rgba(148, 0, 211, 0.75);
+        box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.75);
     }
     50% {
-        box-shadow: 0 0 25px 10px rgba(148, 0, 211, 0.5);
+        box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.5);
     }
     100% {
-        box-shadow: 0 0 15px 5px rgba(148, 0, 211, 0.75);
+        box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.75);
     }
 }
 
@@ -64,13 +64,13 @@ h1, p {
 /* Keyframes for text glow effect */
 @keyframes glow {
     0% {
-        text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     }
     50% {
-        text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+        text-shadow: 0 0 20px rgba(0, 0, 0, 1);
     }
     100% {
-        text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -84,7 +84,7 @@ h1 {
 p {
     margin: 0; /* Remove default margin */
     font-size: 16px; /* Font size */
-    color: #fff; /* White text color */
+    color: #000; /* Black text color */
 }
 
 /* Links styling */
@@ -95,7 +95,7 @@ p {
 
 /* Styling for each link */
 .links a {
-    color: #8a2be2; /* Link color */
+    color: #000; /* Link color */
     text-decoration: none; /* Remove underline */
     margin: 0 10px; /* Margin between links */
     display: flex; /* Flexbox layout */
@@ -112,7 +112,7 @@ p {
 /* Hover effect for links */
 .links a:hover {
     text-decoration: underline; /* Underline on hover */
-    color: #fff; /* Change link color on hover */
+    color: #000; /* Change link color on hover */
 }
 
 /* Styling for info blocks */
